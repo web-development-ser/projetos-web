@@ -1,0 +1,89 @@
+:root {
+  --tx-color: #2748A1;
+  --bg-color: #C8E2E9;
+  --bt-butto: #397FEF;
+  --ac-butto: #28B150;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+header h1 {
+  color: #472CBF;
+  margin: 30px 20px;
+  text-align: center;
+  background-color: var(--bg-color);
+}
+header span {
+  color: #7368A4;
+}
+
+
+.conteiner {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 28px 0;
+  border-radius: 7px;
+}
+
+
+
+.conteiner__cadastro form {
+  display: flex;
+  flex-direction: column;
+}
+.conteiner__cadastro h2 {
+  text-align: center;
+}
+label {
+  margin: 5px 20px;
+  font-family: Courier New, monospace;
+  font-weight: bold;
+  font-size: 19px;
+}
+.cadastro__input {
+  margin: 5px 20px;
+  padding: 4px;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+.cadastro__button {
+  border: none;
+  background-color: var(--bt-butto);
+  padding: 17px 20px;
+  width: 70%;
+  margin: 0% 17%;
+  border-radius: 17px;
+  color: white;
+  font-weight: bold;
+  margin-top: 28px;
+}
+.cadastro__button--hover:hover {
+  background-color: #56AF3B;
+}
+
+
+
+.conteiner__dados form {
+  display: flex;
+  flex-direction: column;
+}
+.conteiner__dados h2 {
+  text-align: center;
+}
+.dados__input {
+  margin: 5px 20px;
+  padding: 4px;
+  padding-right: 17px;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+hr {
+  margin: 30px 0;
+  width: 87%;
+  background-color: black;
+}
